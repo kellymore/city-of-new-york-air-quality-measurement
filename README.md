@@ -2,7 +2,21 @@
 
 ## About the Dataset 
 
-Detailed information about the dataset used for this repo's EDA and Data Visualization can be found in (NYC Open Data)[https://data.cityofnewyork.us/Environment/Air-Quality/c3uy-2p5r/about_data].
+Detailed information about the dataset used for this repo's EDA and Data Visualization can be found in [NYC Open Data](https://data.cityofnewyork.us/Environment/Air-Quality/c3uy-2p5r/about_data).
 
+Dataset contains information on New York City air quality surveillance data.
 
-
+| Column Name    | Description                                                                                                                                                | API Field Name | Data Type                                                                            |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | ------------------------------------------------------------------------------------ |
+| Unique ID      | Unique record identifier                                                                                                                                   | unique_id      | [Text](https://dev.socrata.com/docs/datatypes/text.html)                             |
+| Indicator ID   | Identifier of the type of measured value across time and space                                                                                             | indicator_id   | [Number](https://dev.socrata.com/docs/datatypes/number.html)                         |
+| Name           | Name of the indicator                                                                                                                                      | name           | [Text](https://dev.socrata.com/docs/datatypes/text.html)                             |
+| Measure        | How the indicator is measured                                                                                                                              | measure        | [Text](https://dev.socrata.com/docs/datatypes/text.html)                             |
+| Measure Info   | Information (such as units) about the measure                                                                                                              | measure_info   | [Text](https://dev.socrata.com/docs/datatypes/text.html)                             |
+| Geo Type Name  | Geography type; UHF' stands for United Hospital Fund neighborhoods; For instance, Citywide, Borough, and Community Districts are different geography types | geo_type_name  | [Text](https://dev.socrata.com/docs/datatypes/text.html)                             |
+| Geo Join ID    | Identifier of the neighborhood geographic area, used for joining to mapping geography files to make thematic maps                                          | geo_join_id    | [Text](https://dev.socrata.com/docs/datatypes/text.html)                             |
+| Geo Place Name | Neighborhood name                                                                                                                                          | geo_place_name | [Text](https://dev.socrata.com/docs/datatypes/text.html)                             |
+| Time Period    | Description of the time that the data applies to ; Could be a year, range of years, or season for example                                                  | time_period    | [Text](https://dev.socrata.com/docs/datatypes/text.html)                             |
+| Start_Date     | Date value for the start of the time_period; Always a date value; could be useful for plotting a time series                                               | start_date     | [Floating Timestamp](https://dev.socrata.com/docs/datatypes/floating_timestamp.html) |
+| Data Value     | The actual data value for this indicator, measure, place, and time                                                                                         | data_value     | [Number](https://dev.socrata.com/docs/datatypes/number.html)                         |
+| Message        | notes that apply to the data value; For example, if an estimate is based on small numbers we will detail here                                              | message        | [Text](https://dev.socrata.com/docs/datatypes/text.html)                             |
