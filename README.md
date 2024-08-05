@@ -22,12 +22,14 @@ Dataset contains information on New York City air quality surveillance data.
 | Message        | notes that apply to the data value; For example, if an estimate is based on small numbers we will detail here                                              | message        | [Text](https://dev.socrata.com/docs/datatypes/text.html)                             |
 
 
+<br>
+
 ## Understanding Air Quality Measurement Units
 
 ### Concentration Units
-- ppb (parts per billion): This measures the number of molecules of a pollutant per billion molecules of air. It's commonly used for gases like ozone, carbon monoxide, and nitrogen dioxide.
+- ppb (parts per billion): Measures the number of molecules of a pollutant per billion molecules of air. It's commonly used for gases like ozone, carbon monoxide, and nitrogen dioxide.
 
-- mcg/m³ (micrograms per cubic meter): This represents the mass of a pollutant in micrograms present in one cubic meter of air. It's commonly used for particulate matter (PM2.5 and PM10).
+- mcg/m³ (micrograms per cubic meter): Represents the mass of a pollutant in micrograms present in one cubic meter of air. It's commonly used for particulate matter (PM2.5 and PM10).
 
 - µg/m³ (micrograms per cubic meter): This is identical to mcg/m³.
 
