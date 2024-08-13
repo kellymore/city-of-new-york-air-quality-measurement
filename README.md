@@ -53,7 +53,7 @@ Dataset contains information on New York City air quality surveillance data.
 ![heatmap](images/heatmap.png)
 ![animated_racing_bar_chart](images/racing_bar_chart_snapshot.png)
 
-Both heatmap and animated racing bar chart shows the annual average air quality measurement in mcg/m3 (combined with µg/m³) per NYC borough from 2009-2022. To see the racing bart chart in action right click on `racing_bar_chart.html` folder and select "Open in Default Browser".
+Both heatmap and animated racing bar chart shows the annual average air quality measurement in mcg/m3 (combined with µg/m³) per NYC borough from 2009-2022. To see the racing bart chart in action right click on `racing_bar_chart.html` folder and select "Open in Default Browser" or visit [https://public.flourish.studio/visualisation/19002062/](https://public.flourish.studio/visualisation/19002062/)
 
 <br>
 
